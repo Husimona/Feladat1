@@ -1,0 +1,78 @@
+<div class="container my-4">
+
+    <div class="row">
+        <div class="col-12">
+            <h1>Termekek</h1>
+
+            <h3>Termekek Objektum</h3>
+            <!--
+            <table class="table table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Cikkszam</th>
+                        <th>Gyarto</th>
+                        <th>Ar</th>
+                        <th>Afa</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr *ngFor="let t of Termekek">
+                        <td>{{t.cikkszam}}</td>
+                        <td>{{t.gyarto}}</td>
+                        <td>{{t.nettoAr}}</td>
+                        <td>{{t.afa}}</td>
+                    </tr>
+                </tbody>
+            </table>-->
+
+            <!--
+            <table class="table table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Cikkszam</th>
+                        <th>Gyarto</th>
+                        <th>Ar</th>
+                        <th>Afa</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr *ngFor="let t of Termekek">
+                        <td>{{t.cikkszam}}</td>
+                        <td>{{t.gyarto}}</td>
+                        <td>{{t.nettoAr}}</td>
+                        <td>{{t.afa}}</td>
+
+                    </tr>
+                </tbody>
+            </table>-->
+
+            <table class="table table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Cikkszam</th>
+                        <th>Gyarto</th>
+                        <th>Ar</th>
+                        <th>Afa</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr *ngFor="let t of termekek">
+                        <td>{{t.cikkszam}}</td>
+                        <td>{{t.gyarto}}</td>
+                        <td>{{t.nettoAr}}</td>
+                        <td>{{t.afa}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul>
+                <li>asd</li>
+            </ul>
+
+            <button (click)="brtSzamolas()" class="btn btn-primary my-4"> Brutto Ar kiszamolasa</button>
+            <h3>{{atlagbrt}}</h3>
+        </div>
+    </div>
+</div>
